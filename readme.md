@@ -2,7 +2,7 @@
 *pre requesito: Docker https://www.docker.com/*
 1. Dirígete a la carpeta raíz del proyecto /entrega
 
-2. Ejetuta el comando: ```docker compose up -d```
+2. Ejecuta el comando: ```docker compose up -d```
 
 
 
@@ -20,7 +20,6 @@ Usado para hacer pruebas, todas las peticiones darán una transacción exitosa, 
 ```
 Los datos o montos ingresados no son validados y no afectan a la tabla de tarjetas.
 
-Ejemplo del Request se encuentra dentro de la documentación de swagger.
 
 ### Metodo */execute_sale*
 Usado para produccion, las transacciones exitosas daran:
@@ -32,7 +31,6 @@ Usado para produccion, las transacciones exitosas daran:
 ```
 Los datos o montos ingresados son validados y afectan a la tabla de tarjetas.
 
-Ejemplo del Request se encuentra dentro de la documentación de swagger.
 ****
 
 ### Metodo */view_all_card*
